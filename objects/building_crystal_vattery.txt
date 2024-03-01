@@ -1,0 +1,24 @@
+building_crystal_vattery
+
+[OBJECT:BUILDING]
+
+[BUILDING_WORKSHOP:CV_CRYSTAL_VATTERY]
+   [NAME:Crystal Vattery]
+   [NAME_COLOR:7:0:1]  # Is this needed anymore?
+   [BUILD_LABOR:EXTRACT_STRAND]
+   [BUILD_KEY:NONE]
+   [DIM:5:3]
+   [WORK_LOCATION:3:2]
+   [BLOCK:1:0:0:0:0:0]  # legacy, check if can be removed
+   [BLOCK:2:0:0:0:0:0]
+   [BLOCK:3:0:0:0:0:0]
+   [COLOR:0:1:0:0:0:0:0:0:0:0:0]
+   [COLOR:0:2:0:0:0:0:0:0:0:0:0]
+   [COLOR:0:3:0:0:0:0:0:0:0:0:0]
+   [TILE:3:1:' ':' ':' ':' ':' ']
+   [TILE:3:2:' ':' ':' ':' ':' ']
+   [TILE:3:3:' ':' ':' ':' ':' ']
+   [BUILD_ITEM:4:BLOCKS:NONE:NONE:NONE][BUILDMAT][FIRE_BUILD_SAFE][CAN_USE_ARTIFACT]
+   [BUILD_ITEM:2:TRAPPARTS:NONE:INORGANIC:NONE][CAN_USE_ARTIFACT]  # FIXME restrict to metal
+   [BUILD_ITEM:2:BUCKET:NONE:INORGANIC:NONE][CAN_USE_ARTIFACT]  # FIXME restrict to metal
+   [TOOLTIP:Process and perform rituals on crystals]
