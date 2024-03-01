@@ -6,7 +6,7 @@ plant_crystal_vattery_crystals
 	[NAME:giant austenite crystal][NAME_PLURAL:giant austenite crystal][ADJ:austenite]
 	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
-	[USE_MATERIAL_TEMPLATE:AUSTENITE_WOOD:STONE_TEMPLATE]
+	[USE_MATERIAL_TEMPLATE:AUSTENITE_WOOD:STONE_TEMPLATE]  # FIXME undefined local plant material set to default: CW_AUSTENITE_CRYSTAL WOOD
 		[MATERIAL_VALUE:10][VALUE:10]
 		[STATE_NAME:ALL_SOLID:austenite crystal]
 		[STATE_ADJ:ALL_SOLID:austenite crystal]
@@ -32,7 +32,7 @@ plant_crystal_vattery_crystals
         [TRUNK_PERIOD:40]
         [TRUNK_BRANCHING:0]
         [MAX_TRUNK_HEIGHT:2]
-        [MAX_TRUNK_DIAMETER:1]
+        [MAX_TRUNK_DIAMETER:2]
         [ROOT_DENSITY:0]
         [ROOT_RADIUS:0]
     [STANDARD_TILE_NAMES]  # fixme

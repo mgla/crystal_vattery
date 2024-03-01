@@ -3,6 +3,6 @@ tile_page_crystal_vattery
 [OBJECT:TILE_PAGE]
 
 [TILE_PAGE:RED_CRYSTAL_CLUSTER]
-	[FILE:images/red_crystal_cluster_32x.png]
-	[TILE_DIM:32:2]
-	[PAGE_DIM:1:1]
+	[FILE:images/red_crystal_cluster.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM:3:2]
