@@ -1,0 +1,23 @@
+inorganic_crystal_vattery
+
+[OBJECT:INORGANIC]
+
+[INORGANIC:CV_AUSTENITE]
+    [USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+    [STATE_NAME_ADJ:ALL_SOLID:austenite crystal]
+  	[STATE_NAME_ADJ:LIQUID:liquid austenite]
+	[STATE_NAME_ADJ:GAS:boiling austenite]
+	[DISPLAY_COLOR:0:7:1] # not sure if needed
+	[BUILD_COLOR:0:7:1] # not sure if needed
+    [MATERIAL_VALUE:5] # half as much as iron, twice the yield
+    [ITEMS_HARD] # shoud make this stockpile in block storage
+    [SOLID_DENSITY:7850]
+    [MELTING_POINT:12768]
+	[BOILING_POINT:15150]
+    [MELTING_POINT:12736]
+    [STATE_COLOR:ALL_SOLID:MAROON]  # not sure if needed
+	[SOLID_DENSITY:7850]
+	[LIQUID_DENSITY:6980]
+	[MOLAR_MASS:55845]
+	[STATE_COLOR:ALL_SOLID:GRAY]
+	[REACTION_CLASS:CV_CRYSTAL] # can be moved to 

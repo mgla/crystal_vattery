@@ -18,6 +18,7 @@ building_crystal_vattery
    [TILE:3:1:' ':' ':' ':' ':' ']
    [TILE:3:2:' ':' ':' ':' ':' ']
    [TILE:3:3:' ':' ':' ':' ':' ']
+   [NEEDS_MAGMA]
    [BUILD_ITEM:4:BLOCKS:NONE:NONE:NONE][BUILDMAT][FIRE_BUILD_SAFE][CAN_USE_ARTIFACT]
    [BUILD_ITEM:2:TRAPPARTS:NONE:INORGANIC:NONE][CAN_USE_ARTIFACT]  # FIXME restrict to metal
    [BUILD_ITEM:2:BUCKET:NONE:INORGANIC:NONE][CAN_USE_ARTIFACT]  # FIXME restrict to metal
