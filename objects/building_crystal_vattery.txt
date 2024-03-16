@@ -23,3 +23,22 @@ building_crystal_vattery
    [BUILD_ITEM:2:TRAPPARTS:NONE:INORGANIC:NONE][CAN_USE_ARTIFACT]  # FIXME restrict to metal
    [BUILD_ITEM:2:BUCKET:NONE:INORGANIC:NONE][CAN_USE_ARTIFACT]  # FIXME restrict to metal
    [TOOLTIP:Process and perform rituals on crystals]
+
+[BUILDING_WORKSHOP:CV_CRYSTAL_OBELISK]
+   [NAME:Crystal Obelisk]
+   [NAME_COLOR:7:0:1]  # Is this needed anymore?
+   [BUILD_LABOR:EXTRACT_STRAND]
+   [BUILD_KEY:NONE]
+   [DIM:1:2]
+   [WORK_LOCATION:1:2]  # bottom tile
+   [BLOCK:1:0]  # legacy, check if can be removed
+   [BLOCK:2:0]
+   [COLOR:0:1:0:0:0]
+   [COLOR:0:2:0:0:0]
+   [COLOR:0:3:0:0:0]
+   [TILE:3:1:' ']
+   [TILE:3:2:' ']
+   [NEEDS_MAGMA]
+   [BUILD_ITEM:4:BLOCKS:NONE:NONE:NONE][BUILDMAT][FIRE_BUILD_SAFE][CAN_USE_ARTIFACT]
+   [BUILD_ITEM:1:BAR:NONE:INORGANIC:NONE][BUILDMAT][REACTION_CLASS:CV_OBELISK_MAT]
+   [TOOLTIP:Grows giant crystals around it under the right conditions]

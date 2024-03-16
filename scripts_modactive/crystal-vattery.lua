@@ -4,6 +4,7 @@
 print('cv main')
 
 local replace = reqscript('internal/crystal-vattery/replace-plant-yield')
+local grow = reqscript('internal/crystal-vattery/grow-crystals')
 local modId = "crystal-vattery"
 
 -- mod enables itself
